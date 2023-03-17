@@ -79,8 +79,17 @@ void OnDataRecv(const uint8_t * mac_addr, const uint8_t *incomingData, int len) 
 
         send_cost.state = 4;
         send_cost.cost = cost;
-        esp_err_t result = esp_now_send(FaiiAddress, (uint8_t *) &send_cost, sizeof(send_cost));
-        if (result == ESP_OK) {
+        esp_err_t result1 = esp_now_send(FaiiAddress, (uint8_t *) &send_cost, sizeof(send_cost));
+        if (result1 == ESP_OK) {
+            Serial.println("Sent with success");
+        }
+        else {
+            Serial.println("Error sending the data");
+        }
+        delay(500);
+
+        esp_err_t result2 = esp_now_send(NinaAddress, (uint8_t *) &send_cost, sizeof(send_cost));
+        if (result2 == ESP_OK) {
             Serial.println("Sent with success");
         }
         else {
@@ -187,6 +196,8 @@ void loop() {
         else{
             Serial.println("Not found");
         }
+
+        delay(1000);
     }
 
 }
