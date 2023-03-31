@@ -21,11 +21,11 @@
 **Pictures** (โฟลเดอร์รวบรวมไฟล์รูปภาพชิ้นงาน)
 
 **Schematic** :
-- Schematic_1.png (Schematic ของบอร์ดที่ใช้แยกขยะ และนับจำนวนขยะที่ได้)
-- Schematic_2.png (Schematic ของบอร์ดที่ใช้แสดงผลกับผู้ใช้ เช่น ปริมาณขยะ จำนวนขยะที่ทิ้ง)
-- Schematic_3.png (Schematic ของบอร์ดที่ใช้ในการจ่ายเหรียญ)
-- Schematic_4.png (Schematic ของบอร์ดที่ใช้ในการจำเครดิตของผู้ใช้งาน หนี้ที่ติดผู้ใช้ รวมถึงการแสดงผลหมายเลขโทรศัพท์ที่กดผ่าน keypad)
-- Schematics_5.png (Schematic ของบอร์ดที่ใช้ในการวัดปริมาณถังขยะ และทำไลน์ notification)
+- Schematic_1_DetectMetal.png (Schematic ของบอร์ดที่ใช้แยกขยะ และนับจำนวนขยะที่ได้)
+- Schematic_2_Display.png (Schematic ของบอร์ดที่ใช้แสดงผลกับผู้ใช้ เช่น ปริมาณขยะ จำนวนขยะที่ทิ้ง)
+- Schematic_3_ChangeCoin.png (Schematic ของบอร์ดที่ใช้ในการจ่ายเหรียญ)
+- Schematic_4_DeptDB.png (Schematic ของบอร์ดที่ใช้ในการจำเครดิตของผู้ใช้งาน หนี้ที่ติดผู้ใช้ รวมถึงการแสดงผลหมายเลขโทรศัพท์ที่กดผ่าน keypad)
+- Schematics_5_TrashStatus_LineNotify.png (Schematic ของบอร์ดที่ใช้ในการวัดปริมาณถังขยะ และทำไลน์ notification)
 
 **SourceCode** :
 - B1_DetectMetal
@@ -72,7 +72,7 @@
 
 
 ## Hardware
-1. ์NodeMCU 6 บอร์ด
+1. NodeMCU 6 บอร์ด
 2. Switch 3 ตัว
 3. Inductive proximity sensor 1 ตัว
 4. Ultrasonic sensors 3 ตัว
