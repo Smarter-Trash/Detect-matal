@@ -24,24 +24,43 @@
 - Schematic_1.png (Schematic ของบอร์ดที่ใช้แยกขยะ และนับจำนวนขยะที่ได้)
 - Schematic_2.png (Schematic ของบอร์ดที่ใช้แสดงผลกับผู้ใช้ เช่น ปริมาณขยะ จำนวนขยะที่ทิ้ง)
 - Schematic_3.png (Schematic ของบอร์ดที่ใช้ในการจ่ายเหรียญ)
-- Schematic_4.png (Schematic ของบอร์ดที่ใช้ในการจำเครดิตของผู้ใช้งาน รวมถึงการแสดงผลหมายเลขโทรศัพท์ที่กดผ่าน keypad)
+- Schematic_4.png (Schematic ของบอร์ดที่ใช้ในการจำเครดิตของผู้ใช้งาน หนี้ที่ติดผู้ใช้ รวมถึงการแสดงผลหมายเลขโทรศัพท์ที่กดผ่าน keypad)
 - Schematics_5.png (Schematic ของบอร์ดที่ใช้ในการวัดปริมาณถังขยะ และทำไลน์ notification)
 
 **SourceCode** :
-- detech-metal.ino
-- 
-
-	
+- B1_DetectMetal
+  - detect_metal
+    - detech-metal.ino
+- B2_Display
+  - OLED_display
+    - OLED_display.ino
+- B3_Change_Coin
+- B4_DeptDB
+- B5_LineNotify
 
 **License.txt**
 
 **README.md**		
 
 ## Library ที่ใช้
-- 
--
--
--
+- ESP32Servo.h
+- esp_now.h
+- WiFi.h
+- Bounce2.h
+- Foo.h
+- Bar.h
+- SPI.h
+- Wire.h
+- Adafruit_GFX.h
+- Adafruit_SSD1306.h
+- Arduino.h
+- iostream
+- map
+- HardwareSerial.h
+- Ultrasonic.h
+- WiFiClientSecure.h
+- ESP_Line_Notify.h
+
 
 ## Hardware
 1. ์NodeMCU 6 บอร์ด
