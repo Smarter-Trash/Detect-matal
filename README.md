@@ -35,8 +35,17 @@
   - OLED_display
     - OLED_display.ino
 - B3_Change_Coin
+  - change_coin
+    - change_coin.cpp
 - B4_DeptDB
-- B5_LineNotify
+  - deptDB
+    - deptDB.cpp
+- B5_TrashStatus
+  - trash_status
+    - trash_status.cpp
+- B6_LineNotify
+  - line_notify
+    - line_notify.cpp
 
 **License.txt**
 
