@@ -28,12 +28,8 @@
 - Schematics_5_TrashStatus_LineNotify.png (Schematic ของบอร์ดที่ใช้ในการวัดปริมาณถังขยะ และทำไลน์ notification)
 
 **SourceCode** :
-- B1_DetectMetal
-  - detect_metal
-    - detech-metal.ino
-- B2_Display
-  - OLED_display
-    - OLED_display.ino
+- B1_DetectMetal.ino
+- B2_Display.ino
 - B3_Change_Coin
   - change_coin
     - change_coin.cpp
