@@ -5,56 +5,39 @@
 กลุ่ม : สาวสวย 5 หน่อ
 
 คณะผู้จัดทำ :
-วิมลมณี วิศิษฎ์สกุลเจริญ
-สุพิชชา วสุประสาท
-จิดาภา ณัฐภานนท์
-ชนนันท์ วัฒนชานนท์
-ณัฐรดา วัชราสินธร
+6310503561 วิมลมณี วิศิษฎ์สกุลเจริญ
+6310503588 สุพิชชา วสุประสาท
+6310505696 จิดาภา ณัฐภานนท์
+6310505700 ชนนันท์ วัฒนชานนท์
+6310505718 ณัฐรดา วัชราสินธร
 คณะวิศวกรรมศาสตร์ สาขาคอมพิวเตอร์ มหาวิทยาลัยเกษตรศาสตร์
 
 ## รายละเอียดของไฟล์ :
-**Pictures** :
- - pic_1.jpg 
- - pic_5.jpg ภาพถ่ายของชิ้นงาน
- - members.jpg ภาพสมาชิกถ่ายคู่กับชิ้นงาน
+**Pictures** (โฟลเดอร์รวบรวมไฟล์รูปภาพชิ้นงาน)
 
 **Schematic** :
-- Schematics-1.jpg (Schematics ของบอร์ด Switch ที่ใช้สั่งการหุ่นยนต์)
-- Schematics-3.jpg (Schematics ของบอร์ดที่ใช้แสดงปริมาณขยะถายในถัง)
-- Schematics-4.jpg (Schematics ของบอร์ดที่ใช้ในการทำง
-- านของหุ่นยนต์)
+- Schematic_1.jpg (Schematic ของบอร์ดที่ใช้แยกขยะ และนับจำนวนขยะที่ได้)
+- Schematic_2.jpg (Schematic ของบอร์ดที่ใช้แสดงผลกับผู้ใช้ เช่น ปริมาณขยะ จำนวนขยะที่ทิ้ง)
+- Schematic_3.jpg (Schematic ของบอร์ดที่ใช้ในการจ่ายเหรียญ)
+- Schematic_4.jpg (Schematic ของบอร์ดที่ใช้ในการจำเครดิตของผู้ใช้งาน รวมถึงการแสดงผลหมายเลขโทรศัพท์ที่กดผ่าน keypad)
+- Schematics_5.jpg (Schematic ของบอร์ดที่ใช้ในการวัดปริมาณถังขยะ และทำไลน์ notification)
 
 **SourceCode** :
+- detech-metal.ino
+- 
 
 	
 
 **License.txt**
 **README.md**		
 
-# Library ที่ใช้
-Line Bot :
-	- axios
-	- express
-	- Line Messaging API
-Server :
-	- express
-Arduino :
-	- Arduino.h
-	- I2Cdev.h
-	- Wire.h
-	- WiFi.h
-	- HTTPClient.h
-	- ArduinoJson.h
-	- ESP32Servo.h
-MBed :
-	- Mbed.h
-Micropython :
-	- time
-	- Pin
-	- I2C
-	- ssd1306
+## Library ที่ใช้
+- 
+-
+-
+-
 
-Hardware
+## Hardware
 1. ์NodeMCU 6 บอร์ด
 2. Switch 3 ตัว
 3. Inductive proximity sensor 1 ตัว
