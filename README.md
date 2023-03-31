@@ -20,11 +20,11 @@
 **Pictures** (โฟลเดอร์รวบรวมไฟล์รูปภาพชิ้นงาน)
 
 **Schematic** :
-- Schematic_1.jpg (Schematic ของบอร์ดที่ใช้แยกขยะ และนับจำนวนขยะที่ได้)
-- Schematic_2.jpg (Schematic ของบอร์ดที่ใช้แสดงผลกับผู้ใช้ เช่น ปริมาณขยะ จำนวนขยะที่ทิ้ง)
-- Schematic_3.jpg (Schematic ของบอร์ดที่ใช้ในการจ่ายเหรียญ)
-- Schematic_4.jpg (Schematic ของบอร์ดที่ใช้ในการจำเครดิตของผู้ใช้งาน รวมถึงการแสดงผลหมายเลขโทรศัพท์ที่กดผ่าน keypad)
-- Schematics_5.jpg (Schematic ของบอร์ดที่ใช้ในการวัดปริมาณถังขยะ และทำไลน์ notification)
+- Schematic_1.png (Schematic ของบอร์ดที่ใช้แยกขยะ และนับจำนวนขยะที่ได้)
+- Schematic_2.png (Schematic ของบอร์ดที่ใช้แสดงผลกับผู้ใช้ เช่น ปริมาณขยะ จำนวนขยะที่ทิ้ง)
+- Schematic_3.png (Schematic ของบอร์ดที่ใช้ในการจ่ายเหรียญ)
+- Schematic_4.png (Schematic ของบอร์ดที่ใช้ในการจำเครดิตของผู้ใช้งาน รวมถึงการแสดงผลหมายเลขโทรศัพท์ที่กดผ่าน keypad)
+- Schematics_5.png (Schematic ของบอร์ดที่ใช้ในการวัดปริมาณถังขยะ และทำไลน์ notification)
 
 **SourceCode** :
 - detech-metal.ino
@@ -33,6 +33,7 @@
 	
 
 **License.txt**
+
 **README.md**		
 
 ## Library ที่ใช้
